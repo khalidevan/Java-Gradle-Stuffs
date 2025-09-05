@@ -26,7 +26,7 @@ test {
 }
 
 task helloJayJay() {
-    description = "Custom Task Here!" // kasih deskripsi biar muncul di daftar tasks
+    description = "Hello JayJay, My name is Khalid!" // kasih deskripsi biar muncul di daftar tasks
 
     doLast {
         println("IT IS UP AND RUNNING!") // apa yang dilakukan saat task dipanggil
